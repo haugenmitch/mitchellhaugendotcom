@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'JuliaMono';
+    src: url('/fonts/JuliaMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: "JuliaMono";
+    color: whitesmoke;
+    background-color: #404040;
+}
+
+.mch-red {
+    color: #f08080;
+}
+
+.mch-green {
+    color: #7fe97f;
+}
+
+.mch-blue {
+    color: #7cb2f0;
+}
+
+.sidebar {
+    float: left;
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    color: whitesmoke;
+    background-color: #404040;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main {
+    margin-left: 150px;
+}
