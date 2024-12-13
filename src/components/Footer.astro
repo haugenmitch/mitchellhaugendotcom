@@ -1,0 +1,14 @@
+---
+const { default: email } = await import("/public/email.svg?raw");
+const { default: github } = await import("/public/github.svg?raw");
+const { default: linkedin } = await import("/public/linkedin.svg?raw");
+---
+
+<div class="footer">
+    <hr style="width:15%;text-align:left;margin-left:0" />
+    <a href="mailto:contact@mitchellhaugen.com"><Fragment set:html={email} /></a
+    ><a href="https://github.com/haugenmitch"><Fragment set:html={github} /></a
+    ><a href="https://www.linkedin.com/in/mitchell-haugen/"
+        ><Fragment set:html={linkedin} /></a
+    ><p>Mitchell Haugen © 2024</p>
+</div>

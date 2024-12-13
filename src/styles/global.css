@@ -6,12 +6,6 @@
     font-display: swap;
 }
 
-* {
-    font-family: "JuliaMono";
-    color: whitesmoke;
-    background-color: #404040;
-}
-
 .mch-red {
     color: #f08080;
 }
@@ -24,19 +18,48 @@
     color: #7cb2f0;
 }
 
-.sidebar {
-    float: left;
-    width: 120px;
-    height: 100%;
-    position: fixed;
+* {
+    font-family: "JuliaMono";
     color: whitesmoke;
     background-color: #404040;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.sidebar {
+    float: left;
+    width: 130px;
+    height: 100%;
+    position: fixed;
     top: 0;
     left: 0;
-    padding-left: 15px;
-    padding-right: 15px;
+    overflow-x: hidden;
+    margin-left: 20px;
 }
 
 .main {
-    margin-left: 150px;
+    min-height: 100%;
+    position: relative;
+    left: 150px;
+    clear: left;
+}
+
+.content {
+    padding-bottom: 120px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+}
+
+.full {
+    height: 100%;
+    width: 100%;
 }
