@@ -1,3 +1,5 @@
+# mitchellhaugen.com
+
 This is the repo for my personal website.
 
 Written with astro.
